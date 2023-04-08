@@ -1,0 +1,56 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+a{text-decoration: none !important;}
+section {padding: 50px 0px;}
+.main_hdr {background: #fff;padding: 10px 0px;position: sticky;top: 0;right: 0;left: 0;z-index: 99;border-bottom: 1px solid #eee;}
+ul.navbar-nav li {margin-left: 20px;}
+ul.navbar-nav li a {    color: #000;font-size: 18px;font-weight: 600;}
+ul.navbar-nav li a:hover{color: #000;}
+ul.navbar-nav li a:focus{color: #000;}
+.main_hdr nav {justify-content: space-between;}
+div#navbarSupportedContent-555 {flex-grow: unset;}
+.cascading-right {margin-right: -50px;}
+  @media (max-width: 991.98px) {
+    .cascading-right {margin-right: 0;}
+  }
+.login_page {background: rgb(13 110 253 / 25%);padding: 20px;}
+.login_main_sec{padding: 10px; border-radius: 5px;}
+.card.cascading-right{background: hsla(0, 0%, 100%, 0.55);backdrop-filter: blur(30px);}
+.container.py-4.login_cont {padding: 0px 70px;}
+.frm_btn{padding: 10px 50px !important;font-size: 18px !important;}
+.register_frm{border-radius: 25px;}
+i.fas.fa-street-view {font-size: 30px;margin-right: 12px;}
+.register_form i.fas.fa-phone {font-size: 25px;margin-right: 18px;transform: rotate(115deg);}
+i.fas.fa-phone {transform: rotate(115deg);}
+.contct_frm_page{margin-top: -100px; background: hsla(0, 0%, 100%, 0.8) !important;backdrop-filter: blur(30px);}
+.cntct_sec {background-image: url(https://mdbootstrap.com/img/new/textures/full/171.jpg);height: 400px;background-size: cover;background-position: center;}
+.form-outline .form-control {padding: 10px;}
+.text_area textarea {resize: none;height: 150px;}
+.text_area {margin-bottom: 30px;}
+
+.why_us_imgs{background-image: url("./image/why-us.png");}
+.abt_banner img{width: 100%;}
+.main_abt {position: absolute;top: 0;left: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;color: #fff;background: #00000069;text-align: center;}
+.abt_banner {position: relative;}
+.abt_profile {box-shadow: 0px 0px 5px 3px #ddd;border-radius: 5px;}
+.prfl_img img {width: 100%;border-radius: 5px;height: 250px;object-fit: cover;}
+.prfl_img ul li a i {margin-right: 5px;}
+.prfl_img ul li a {color: #000;letter-spacing: 1px;font-size: 18px;font-weight: 600;width: 100%;display: block;}
+.prfl_img ul li {list-style: none;padding: 0;margin-bottom: 7px;border-bottom: 1px solid #ddd;padding-bottom: 5px;width: 100%;}
+.prfl_img ul {margin-top: 20px;padding: 0;}
+.prfl_cont span {font-size: 20px;font-weight: 600;margin-bottom: 10px;display: inline-block;}
+.pfl_dtls {padding: 10px;}
+.prfl_cont {margin-bottom: 30px;padding: 20px;}
+.pfl_dtls ul li b {color: #1d1d1d;font-size: 18px;}
+.prfl_img {background: #f3f5fa;padding: 20px  10px 20px 20px;}
+.pfl_dtls ul li p {margin-bottom: 0px;}
+.pfl_dtls ul {padding: 0;}
+.pfl_dtls ul li {display: flex;justify-content: space-between;width: 100%;margin-bottom: 10px;border-bottom: 1px solid #ddd;padding: 0px 10px 10px 0px;}
+.pfl_dtls h3 {margin-bottom: 15px;background: #ededed;padding: 10px;border-radius: 5px;}
+.errepage {background: #f3f5fa;display: flex;align-items: center;justify-content: center;color: rgb(0, 0, 0);text-align: center;padding: 50px 0px;}
+.errepage h1 {font-size: 150px;font-weight: 900;}
+.errepage h2 span {color: #f00;font-weight: 600;}
+a.frm_btn {background: #eee;border-radius: 5px;display: inline-block;margin-top: 10px;}
+a.frm_btn {background: #00caf5;border-radius: 5px;display: inline-block;margin-top: 10px;color: #fff;font-weight: 600;transition: all 0.3s linear;}
+a.frm_btn:hover {background: #067891;color: #fff;}
