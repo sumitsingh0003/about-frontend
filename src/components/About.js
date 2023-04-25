@@ -11,7 +11,7 @@ const [userData, setUserData] = useState({});
   useEffect(()=>{  
     const callAboutusPage = async () =>{
      try {
-      const res = await fetch('http://localhost:5000/about', {
+      const res = await fetch('https://loginbckend.onrender.com/about', {
         method:"GET",
         headers:{
           Accept :'application/json',

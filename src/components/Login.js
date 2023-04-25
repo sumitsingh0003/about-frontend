@@ -14,7 +14,7 @@ const Login = () => {
   const LoginData = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/login", {
+    const res = await fetch("https://loginbckend.onrender.com/login", {
       credentials: 'include',
       method: "POST",
       headers: {

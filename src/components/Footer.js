@@ -112,7 +112,7 @@ const Footer = () => {
 
             <div
                 className="text-center p-3"
-                style={{background: "rgb(0 202 245)", color: "#fff"}} > © 2020 Copyright: <Link className="text-dark" to="" >Sumit Singh</Link>
+                style={{background: "rgb(0 202 245)", color: "#fff"}} > © 2023 Copyright: <Link className="text-dark" to="" >Sumit Singh</Link>
             </div>
           </footer>
 

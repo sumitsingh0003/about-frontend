@@ -39,7 +39,7 @@ const navigate = useNavigate();
     formData.append('file', file);
 
 
-      const res = await fetch( "http://localhost:5000/register", {
+      const res = await fetch( "https://loginbckend.onrender.com/register", {
       method: "POST",
       headers: {
         // 'Content-Type': 'multipart/form-data; boundary=MyBoundary',

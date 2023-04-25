@@ -31,7 +31,7 @@ const Main = () => {
     useEffect(()=>{
       const userHomePage = async () =>{
        try {
-        const res = await fetch('http://localhost:5000/getdata', {
+        const res = await fetch('https://loginbckend.onrender.com/getdata', {
           method:"GET",
           headers:{
             'Content-Type':'application/json',

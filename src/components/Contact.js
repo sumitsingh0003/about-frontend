@@ -9,7 +9,7 @@ const [userData, setUserData] = useState({
   useEffect(()=>{
     const callContactPage = async () =>{
      try {
-      const res = await fetch('http://localhost:5000/getdata', {
+      const res = await fetch('https://loginbckend.onrender.com/getdata', {
         method:"GET",
         headers:{
           'Content-Type':'application/json',
@@ -43,7 +43,7 @@ const sbmtMsgData = async(e) => {
    
   const { username, email, phone, city, message  } = userData;
     
-  const res = await fetch( "http://localhost:5000/contact", {
+  const res = await fetch( "https://loginbckend.onrender.com/contact", {
     method: "POST",
     headers: {
       'Content-Type': 'application/json',
