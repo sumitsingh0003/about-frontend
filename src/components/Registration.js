@@ -7,7 +7,7 @@ const Registration = () => {
 const navigate = useNavigate();
 
   const [user, setUser]= useState({
-    username:"", email:"", phone:"",city:"",password:"",cpassword:"", images:""
+    username:"", email:"", phone:"",city:"", password:"", cpassword:"", images:""
   })
 
   const handleInputs = (e) =>{
@@ -49,9 +49,9 @@ const navigate = useNavigate();
         
     });
     let a = await formData;
-    console.log(a);
+    // console.log(a);
 
-    console.log(user);
+    // console.log(user);
     
     const data = await res.json();
 
@@ -61,7 +61,7 @@ const navigate = useNavigate();
         console.log("Registration Successfull");
         navigate("/login")
       }
-      debugger;
+      // debugger;
   }
 
 
