@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import {useNavigate} from 'react-router-dom'
 
 import { UserContext } from "../App"
@@ -14,7 +14,7 @@ const Login = () => {
   const LoginData = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://loginbckend.onrender.com/login", {
+    const res = await fetch("http://localhost:5000/login", {
       credentials: 'include',
       method: "POST",
       headers: {
@@ -35,6 +35,7 @@ const Login = () => {
       navigate("/");
     }
   };
+  console.log(state)
   
 
   return (

@@ -11,7 +11,7 @@ const Logout = () => {
     const navigate = useNavigate();
 
     useEffect(() =>{
-        fetch('https://loginbckend.onrender.com/logout',{
+        fetch('http://localhost:5000/logout',{
                 method:"GET",
                 headers:{
                 'Content-Type':'application/json',
