@@ -21,12 +21,14 @@ const Logout = () => {
             }).then((res)=>{
                 dispatch({type:"USER", payload:false})
                 navigate('/login');
-
+                console.log(res)
             }).catch((err)=>{
                 console.log(err)
             })
             
-    },[])
+    })
+
+    console.log(state)
     
   return (
     <>
